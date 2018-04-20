@@ -7,9 +7,9 @@
 ?>
 
 <style>
-table {
+table {align: center;
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
     margin:10;
     }
 

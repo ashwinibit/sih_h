@@ -16,13 +16,11 @@
     transition-duration: 0.4s;
     cursor: pointer;
 }
-
 .button1 {
     background-color: white; 
     color: black; 
     border: 2px solid #4CAF50;
 }
-
 .button1:hover {
     background-color: #4CAF50;
     color: white;
@@ -32,16 +30,12 @@
     border-collapse: collapse;
     width: 100%;
 }
-
 #customers td, #customers th {
     border: 1px solid #ddd;
     padding: 8px;
 }
-
 #customers tr:nth-child(even){background-color: #f2f2f2;}
-
 #customers tr:hover {background-color: #ddd;}
-
 #customers th {
     padding-top: 12px;
     padding-bottom: 12px;
@@ -53,9 +47,9 @@
 </head>
 <body>
 
-<h2>Hoverable Buttons</h2>
-<p>Use the :hover selector to change the style of the button when you move the mouse over it.</p>
-<p><strong>Tip:</strong> Use the transition-duration property to determine the speed of the "hover" effect:</p>
+<h2>Important Government sites</h2>
+<p>It will be very helpful for you..Please visit the below links to know more about agriculture and irrigation system..</p>
+<p><strong>Tip:</strong> We are not having any type of links with these sites...</p>
 
 
 
@@ -63,16 +57,17 @@
 
 
 
+
 <table id="customers">
   <tr>
-    <th><button class="button button1">Green</button></th>
-    <th><button class="button button1">Blue</button></th>
-    <th><button class="button button1">Red</button></th>
+    <th><a href="http:///www.india.gov.in" target=""><button class="button button1">Irrigation national portal</button></a></th>
+    <th><a href="http://http://www.irrigation.gov.lk/" target=""><button class="button button1">Department of irrigation</button></a></th>
+    <th><a href="http://www.fasal.co" target=""><button class="button button1">fasal.co</button></a></th>
   </tr>
   <tr>
-    <td><button class="button button1">Gray</button></td>
-    <td><button class="button button1">Black</button></td>
-    <td><button class="button button1">Black</button></td>
+    <td><a href="http://www.accuweather.com" target=""><button class="button button1">Weather forecast</button></a></td>
+    <td><a href="http://www.e-agriculture.org" target=""><button class="button button1">E-Agriculture</button></a></td>
+    <td><a href="http://www..impirrigationsystems.com" target=""><button class="button button1">More about irrigation</button></a></td>
   </tr>
 
 
